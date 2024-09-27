@@ -1,6 +1,5 @@
 // 12S24051 - GERALDA NATALI GULTOM
 // 12S24044 - DIANITA LORENSIA BR GINTING
-
 import java.util.*;
 import java.lang.Math;
 
@@ -26,10 +25,10 @@ public class T02 {
         tahunTerbit = input.nextLine();
         penerbit = input.nextLine();
         formatBukuElektronik = input.nextLine();
-        hargaPembelian = input.nextDouble();
-        minimumMargin = input.nextDouble();
-        stok = input.nextInt();
-        rating = input.nextDouble();
+        hargaPembelian = Double.parseDouble(input.nextLine());
+        minimumMargin = Double.parseDouble(input.nextLine());
+        stok = Integer.parseInt(input.nextLine());
+        rating = Double.parseDouble(input.nextLine());
         if (rating >= 4.7 && rating <= 5.0) {
             kategori = "BestPick";
         } else {
